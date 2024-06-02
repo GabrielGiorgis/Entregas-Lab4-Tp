@@ -1,9 +1,10 @@
 import Iframe from "react-iframe"
 import "./StyleSheets/StyleLanding.css"
 
-export const Ubicacion = () => {
+function Ubicacion() {
     return (
         <>
+            <br /><br /><br />
             <h2>Donde encontrarnos</h2>
             <section id="seccion-ubicacion">
                 <Iframe
@@ -20,3 +21,5 @@ export const Ubicacion = () => {
         </>
     )
 }
+
+export default Ubicacion;
